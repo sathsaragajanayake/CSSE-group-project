@@ -1,0 +1,83 @@
+.wrapper {
+  margin: 0;
+  padding: 0;
+  background-size: cover;
+  background-position: center;
+  font-family: sans-serif;
+}
+
+.loginbox {
+  width: 320px;
+  height: 420px;
+  background: #000;
+  color: #fff;
+  top: 50%;
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  box-sizing: border-box;
+}
+
+h3 {
+  margin: 0;
+  padding: 0 0 20px;
+  text-align: center;
+  font-size: 22px;
+}
+form {
+  padding: 10%;
+}
+
+.wrapper p {
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+  font-weight: bold;
+}
+.wrapper .lbPassword {
+  padding-top: 5%;
+}
+
+.wrapper input {
+  margin: 0;
+  padding: 0;
+  border: none;
+  width: 100%;
+  font-family: sans-serif;
+  background: transparent;
+  color: #fff;
+  font-size: 12px;
+  border-bottom: 1px solid;
+}
+.wrapper button {
+  margin-top: 10%;
+  width: 100%;
+  background: #fff;
+  color: #000;
+  font-weight: bold;
+}
+
+.avatar {
+  width: 100px;
+  height: 100px;
+  margin-left: 35%;
+  border-radius: 50%;
+  position: absolute;
+  top: -50px;
+  left: calc(50%-50px);
+}
+.wrapper h3 {
+  padding-top: 18%;
+}
+.wrapper .login_links {
+  font-size: 11px;
+  color: red;
+  padding: 0;
+  margin: 0;
+  position: absolute;
+}
+
+ul {
+  padding-top: 30%;
+  list-style: none;
+}

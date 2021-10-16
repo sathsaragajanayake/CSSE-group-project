@@ -1,0 +1,229 @@
+.container{
+    width:100%;
+    margin:0%;
+}
+/*logo*/
+.container .headingHome .logo img{
+    width:8%;
+    height:8%;
+    float: left;
+}
+
+/*heading*/
+.container .headingHome{
+    width:100%;
+    background-color: #fcf75e;
+    display:inline-block;
+}
+.logo img{
+    width:8%;
+    height:10%;
+    float: left;
+}
+/*menubar*/
+.container .headingHome .menubar{
+    width:85%;
+    float:left;
+    margin-left: 3%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    background-color: black;
+}
+
+.container .headingHome .menubar .nav_sideNavigation{
+    width:80%;
+}
+.container .headingHome .menubar .nav_sideNavigation .ul_SideNavigation{
+    width: 100%;
+    background-color: black;
+    color: white;
+    display: inline-block;
+    width:100%;
+}
+.container .headingHome .menubar .nav_sideNavigation .ul_SideNavigation li{
+    list-style: none;
+    display: inline-block;
+    margin:1%;
+    margin-left:4%;
+    width: 20%;
+}
+.container .headingHome .menubar .nav_sideNavigation .ul_SideNavigation li a{
+    color: white;
+    text-decoration: none;
+    font-size: medium;
+   
+    width: 8%;
+   
+}
+
+
+.container .headingHome .menubar .nav_sideNavigation .ul_SideNavigation li a.current{
+    color: orange;
+}
+
+/*logo menu*/
+.container .headingHome .logomenu{
+    display: none;
+}
+
+.container .content img{
+    margin-left: 135px;
+    width: 80%;
+    height:600px;
+}
+
+/***********************************
+*******login***********************
+*************************************/
+/*Home button*/
+.container .home .btn{
+    color: black;
+    font-weight: bold;
+    background-color: red;
+    border-radius: 20px;
+    width: 150px;
+    float: right;
+}
+
+.container .home .btn i{
+   padding:5px;
+}
+
+.container .home .btn:hover {
+    background-color:black;
+    color: red;
+  }
+
+/*login content*/
+.content .login-content{
+    height: 650px;
+    background-repeat: no-repeat;
+    background-size: 95%;
+    margin-left: 70px;
+    margin-top: 1px;
+}
+
+.content .login-content h3{
+    margin-top: 200px;
+    margin-left: 1100px;                                                                                
+    font-weight: bold;
+}
+
+.content .login-content input{
+    margin-top: 20px;
+    margin-left: 1000px;  
+    width: 300px;
+    border-radius: 10px;
+    border: none;
+    padding: 2px;
+    height: 35px;
+}
+
+.content .login-content .btn{
+    margin-left: 1150px;  
+    margin-top: 50px;
+    color: black;
+    font-weight: bold;
+    background-color: red;
+    border-radius: 20px;
+    width: 150px;
+}
+
+.content .login-content .btn:hover {
+    background-color:black;
+    color: red;
+  }
+
+  .content .login-content .login_links{
+    margin-left: 980px;  
+    margin-top: 10px;
+  }
+
+  .content .login-content .login_links .ul_links .li_links{
+    list-style-type: none;
+  }
+
+  .content .login-content .login_links .ul_links .li_links a{
+    color: red;
+    text-decoration: none;
+  }
+
+  .content .login-content .login_links .ul_links .li_links a:hover{
+        color: black;
+        font-weight: bold;
+  }
+
+
+/**********************************
+**********tablet*******************
+**********************************/
+/*link seleted*/
+
+@media screen and (max-width: 992px) {
+    body {
+      background-color: blue;
+    }
+    /*logo menu*/
+    .container .headingHome .logomenu{
+        display: none;
+    }
+
+    .container .headingHome .menubar .nav_sideNavigation .ul_SideNavigation li a.current{
+        color: orange;
+    }
+  }
+
+
+
+
+
+@media screen and (max-width: 600px) {
+
+    body {
+      background-color: olive;
+    }
+
+    /*heading*/
+    .container .headingHome{
+        width:100%;
+        background-color: #fffffffe;
+        display:inline-block;
+    }
+
+    .container .headingHome .menubar .nav_sideNavigation .ul_SideNavigation{
+background-color: white;
+    height: 0.2%;
+}
+    /*logo*/
+    .container .headingHome .logo img{
+        width:15%;
+        height:15%;
+        float: left;
+        margin-top: 20px;
+    }
+
+    .container .headingHome .menubar .nav_sideNavigation .ul_SideNavigation {
+        display:none;  
+    }
+
+    .container .headingHome .logomenu{
+        display: inline;
+       
+    }
+
+    .container .headingHome .logomenu img{
+           width:8%;
+           float:left;
+           margin: 0px;
+    }
+
+    .container .headingHome .menubar .nav_sideNavigation .ul_SideNavigation li a.current{
+        color: orange;
+    }
+    .container .content img{
+        margin-left: 15px;
+        width: 90%;
+        height:400px;
+        margin-top:50px;
+    }
+  }
